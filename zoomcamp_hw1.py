@@ -51,21 +51,3 @@ y = np.array([1000,1100,900,1200,1000,850,1300])  # Array of y values
 mul_val = XT.dot(XTX_inv)  # Multiplication of the inverse of XTX with the transpose of X
 w = y.dot(mul_val) # Normal Equation result
 print(f"The first value of w: {w[0]}")
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
