@@ -11,7 +11,7 @@ import numpy as np
 " Ans = 1.3.2 "
 
 # Reading csv files with pandas
-car_data = pd.read_csv("C:\\Users\\ochie\\OneDrive\\Desktop\\Python\\machine_learning_zoomcamp\\HW1\\data.csv")
+car_data = pd.read_csv(y) # y is the directory for the data
 # print(car_data)
 
 # Question 3: Average price of BMW cars
